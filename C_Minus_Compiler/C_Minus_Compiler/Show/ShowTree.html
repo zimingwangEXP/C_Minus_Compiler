@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <!-- 引入 echarts.js -->
+    <!-- 这里是加载刚下好的echarts.min.js，注意路径 -->
+    <script src="jquery.js"></script>
+    <script src="echarts.min.js"></script>
+</head>
+<body>
+<!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+<div id="main" style="width: 1000px;height:600px;"></div>
+<script type="text/javascript">
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main'));
+    myChart.showLoading();
+    $.get('grammer_tree.json', function (data) {
+        myChart.hideLoading();
+
+        myChart.setOption(option = {
+            tooltip: {
+                trigger: 'item',
+                triggerOn: 'mousemove'
+            },
+            series:[
+                {
+                    type: 'tree',
+
+                    data: [data],
+
+                    left: '2%',
+                    right: '2%',
+                    top: '8%',
+                    bottom: '20%',
+
+                    symbol: 'emptyCircle',
+
+                    orient: 'vertical',
+
+                    expandAndCollapse: true,
+
+                    label: {
+                        normal: {
+                            position: 'top',
+                            rotate: 0,
+                            verticalAlign: 'middle',
+                            align: 'right',
+                            fontSize: 15
+                        }
+                    },
+
+                    leaves: {
+                        label: {
+                            normal: {
+                                position: 'bottom',
+                                rotate: 0,
+                                verticalAlign: 'middle',
+                                align: 'left',
+                                fontSize: 10
+                            }
+                        }
+                    },
+
+                    animationDurationUpdate: 750
+                }
+            ]
+        });
+    });
+
+
+</script>
+</body>
+</html>

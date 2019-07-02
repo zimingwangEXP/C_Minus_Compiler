@@ -1,0 +1,24 @@
+﻿  main.cpp
+d:\my_codebase\c++\vs\c_minus_compiler\c_minus_compiler\firstfollowgenerator.cpp(39): warning C4018: “<”: 有符号/无符号不匹配
+d:\my_codebase\c++\vs\c_minus_compiler\c_minus_compiler\firstfollowgenerator.cpp(70): warning C4018: “<”: 有符号/无符号不匹配
+d:\my_codebase\c++\vs\c_minus_compiler\c_minus_compiler\firstfollowgenerator.cpp(178): warning C4018: “>”: 有符号/无符号不匹配
+d:\my_codebase\c++\vs\c_minus_compiler\c_minus_compiler\firstfollowgenerator.cpp(194): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(242): note: 参见“freopen”的声明
+d:\my_codebase\c++\vs\c_minus_compiler\c_minus_compiler\firstfollowgenerator.cpp(195): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(242): note: 参见“freopen”的声明
+d:\my_codebase\c++\vs\c_minus_compiler\c_minus_compiler\firstfollowgenerator.cpp(215): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(242): note: 参见“freopen”的声明
+d:\my_codebase\c++\vs\c_minus_compiler\c_minus_compiler\firstfollowgenerator.cpp(232): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(242): note: 参见“freopen”的声明
+d:\my_codebase\c++\vs\c_minus_compiler\c_minus_compiler\firstfollowgenerator.cpp(236): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(242): note: 参见“freopen”的声明
+d:\my_codebase\c++\vs\c_minus_compiler\c_minus_compiler\ll1_paser.cpp(124): warning C4018: “<”: 有符号/无符号不匹配
+d:\my_codebase\c++\vs\c_minus_compiler\c_minus_compiler\ll1_paser.cpp(182): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(242): note: 参见“freopen”的声明
+d:\my_codebase\c++\vs\c_minus_compiler\c_minus_compiler\ll1_paser.cpp(183): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(242): note: 参见“freopen”的声明
+d:\my_codebase\c++\vs\c_minus_compiler\c_minus_compiler\ll1_paser.cpp(282): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(242): note: 参见“freopen”的声明
+d:\my_codebase\c++\vs\c_minus_compiler\c_minus_compiler\main.cpp(9): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(242): note: 参见“freopen”的声明
+  C_Minus_Compiler.vcxproj -> D:\my_codebase\c++\VS\C_Minus_Compiler\Debug\C_Minus_Compiler.exe

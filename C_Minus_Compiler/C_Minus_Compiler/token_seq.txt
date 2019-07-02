@@ -1,0 +1,15 @@
+1$int$ 1$ID$gcd 1$($ 1$int$ 1$ID$u 1$,$ 1$int$ 1$ID$v 1$)$ 
+2${$ 
+3$if$ 3$($ 3$ID$v 3$==$ 3$NUM$0 3$)$ 
+4$return$ 4$ID$u 4$;$ 
+5$else$ 
+6$return$ 6$ID$gcd 6$($ 6$ID$v 6$,$ 6$ID$u 6$-$ 6$ID$u 6$/$ 6$ID$v 6$*$ 6$ID$v 6$)$ 6$;$ 
+8$}$ 
+9$void$ 9$ID$main 9$($ 9$void$ 9$)$ 
+10${$ 
+11$int$ 11$ID$x 11$;$ 
+12$int$ 12$ID$y 12$;$ 
+13$ID$x 13$=$ 13$ID$input 13$($ 13$)$ 13$;$ 
+14$ID$y 14$=$ 14$ID$input 14$($ 14$)$ 14$;$ 
+15$ID$output 15$($ 15$ID$gcd 15$($ 15$ID$x 15$,$ 15$ID$y 15$)$ 15$)$ 15$;$ 
+16$}$ 
