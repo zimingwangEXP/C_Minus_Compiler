@@ -1,0 +1,20 @@
+int$ ID$x [$ NUM$10 ]$ ;$ 
+int$ ID$minloc ($ int$ ID$a [$ ]$ ,$ int$ ID$low ,$ int$ ID$high )$ {$ 
+int$ ID$i ;$ 
+int$ ID$x ;$ 
+int$ ID$k ;$ 
+ID$k =$ ID$low ;$ 
+ID$x =$ ID$a [$ ID$low ;$ 
+ID$i =$ ID$low +$ NUM$1 ;$ 
+while$ ($ ID$i <$ ID$high )$ {$ 
+if$ ($ ID$a [$ ]$ <$ ID$x )$ {$ 
+ID$x =$ ID$a [$ ID$i ]$ ;$ 
+ID$k =$ ID$i ;$ 
+}$ 
+ID$i =$ ID$i +$ NUM$1 ;$ 
+}$ 
+return$ ID$k ;$ 
+}$ 
+void$ ID$main ($ void$ )$ {$ 
+ID$output ($ ID$minloc ($ ID$x ,$ NUM$4 ,$ NUM$9 )$ )$ ;$ 
+}$ 
