@@ -1,0 +1,46 @@
+|int|NULL|  |ID|x|  |[|NULL|  |NUM|10|  |]|NULL|  |;|NULL|  |int|NULL|  |ID|minloc|  |(|NULL|  |int|NULL|  |ID|a|  |[|NULL|  |]|NULL|  |,|NULL|  |int|NULL|  |ID|low|  |,|NULL|  |int|NULL|  |ID|high|  |)|NULL|  |{|NULL|  |int|NULL|  |ID|i|  |;|NULL|  |int|NULL|  |ID|x|  |;|NULL|  |int|NULL|  |ID|k|  |;|NULL|  |ID|k|  |=|NULL|  |ID|low|  |;|NULL|  |ID|x|  |=|NULL|  |ID|a|  |[|NULL|  |ID|low|  |;|NULL|  |ID|i|  |=|NULL|  |ID|low|  |+|NULL|  |NUM|1|  |;|NULL|  |while|NULL|  |(|NULL|  |ID|i|  |<|NULL|  |ID|high|  |)|NULL|  |{|NULL|  |if|NULL|  |(|NULL|  |ID|a|  |[|NULL|  |]|NULL|  |<|NULL|  |ID|x|  |)|NULL|  |{|NULL|  |ID|x|  |=|NULL|  |ID|a|  |[|NULL|  |ID|i|  |]|NULL|  |;|NULL|  |ID|k|  |=|NULL|  |ID|i|  |;|NULL|  |}|NULL|  |ID|i|  |=|NULL|  |ID|i|  |+|NULL|  |NUM|1|  |;|NULL|  |}|NULL|  |return|NULL|  |ID|k|  |;|NULL|  |}|NULL|  |void|NULL|  |ID|main|  |(|NULL|  |void|NULL|  |)|NULL|  |{|NULL|  |ID|output|  |(|NULL|  |ID|minloc|  |(|NULL|  |ID|x|  |,|NULL|  |NUM|4|  |,|NULL|  |NUM|9|  |)|NULL|  |)|NULL|  |;|NULL|  |}|NULL|  ||NULL|  
+type-specifier -> int
+var-declaration -> type-specifier ID [ NUM ] ;
+declaration -> var-declaration
+declaration-list -> declaration
+type-specifier -> int
+type-specifier -> int
+param -> type-specifier ID [ ]
+param-list -> param
+type-specifier -> int
+param -> type-specifier ID
+param-list -> param-list , param
+type-specifier -> int
+param -> type-specifier ID
+param-list -> param-list , param
+params -> param-list
+local-declarations -> ^
+type-specifier -> int
+var-declaration -> type-specifier ID ;
+local-declarations -> local-declarations var-declaration
+type-specifier -> int
+var-declaration -> type-specifier ID ;
+local-declarations -> local-declarations var-declaration
+type-specifier -> int
+var-declaration -> type-specifier ID ;
+local-declarations -> local-declarations var-declaration
+statement-list -> ^ 
+var -> ID
+var -> ID
+factor -> var
+term -> factor
+additive-expression -> term
+simple-expression -> additive-expression
+expression -> simple-expression
+expression -> var = expression
+expression-stmt -> expression ;
+statement -> expression-stmt
+statement-list -> statement-list statement
+var -> ID
+var -> ID
+factor -> var
+term -> factor
+additive-expression -> term
+simple-expression -> additive-expression
+expression -> simple-expression
+1
